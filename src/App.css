@@ -104,6 +104,7 @@ header {
 }
 
 .logo {
+  object-fit:cover;
   padding: middle;
   width: 450px;
   height: 200px;
