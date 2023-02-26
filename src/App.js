@@ -4,6 +4,9 @@ import naruto from "./naruto.jpeg"
 import yuri from "./yuri.png"
 import tanjiro from "./tanjiro.jpeg"
 import erza from "./erza.jpeg"
+import React from 'react';
+
+
 function App() {
   return (
     <main>
@@ -18,7 +21,9 @@ function App() {
               <div class="column">
                   <div class = "content">
                   <img src={naruto} alt="Naruto" /></div>
-                  <a href="./searchfood.js" class="button">Favorite Food Recipe: Ramen</a>
+                <a href="https://pen-online.com/food/recipe-for-ichiraku-ramen-from-naruto-by-danielle-baghernejad/" class="button">Favorite Food Recipe: Ramen</a>
+                  <img id="naruto" src={narutomore} alt="Naruto"onclick="myfunction()"/>
+                  //<a href="https://pen-online.com/food/recipe-for-ichiraku-ramen-from-naruto-by-danielle-baghernejad/"> <button onClick={naruto}>Favorite Food Recipe: Ramen</button></a>
               </div>
               <div class="column">
                 <div class = "content">
