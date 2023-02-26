@@ -1,6 +1,8 @@
 # AnimEats
 # ![AnimEats Logo](https://github.com/sheTeam/animEats/blob/main/animEats2.png)
-This website allows users to cook meals that their favorite anime characters enjoy eating! If you already know your favorite anime character's food, you can click our search food option where you can search the food item and find various recipes to your liking!
+This website allows users to cook meals that their favorite anime characters enjoy eating! 
+
+If you already know your favorite anime character's food, you can click our search food option where you can search the food item and find various recipes to your liking!
 ## Roles
 -Backend: Mohraiel Matta, Erika Ledesma
 
