@@ -28,3 +28,9 @@
   border-radius: 4px;
   color: white;
 }
+
+.app_recipes{
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+}

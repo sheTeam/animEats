@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./RecipeTile.css";
 
 export default function RecipeTile({ recipe }) {
   return (
+    // recipe["recipe"]["image"].match(/\.(jpeg|jpg|gif|png)$/) != null && (
     <div className="recipeTile">
-        return <p>{recipe["recipe"]["label"]}</p>
+        <img className="recipeTile_img" src={recipe["recipe"]["image"]} alt=""/>
+        <p className="recipeTile_name">{recipe["recipe"]["label"]}</p>
     </div>
-  )
+    //  )
+  );
 }

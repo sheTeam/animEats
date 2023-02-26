@@ -1,7 +1,9 @@
 import './keys';
 import './App.css';
-<img src={logo} alt="animEats_baby.svg" />
+// import logo from '.logo/svg';
+// <img src={logo} alt="animEats_baby.svg" />
 import Axios from "axios";
+import RecipeTile from './RecipeTile';
 import { useState } from "react";
 
 function App() {
@@ -34,9 +36,9 @@ function App() {
         <input className="app_submit" type="submit" value="Search"/>
       </form>
 
-      <div>
+      <div className="app_recipes">
         {recipes.map(recipe => {
-          return <RecipeTile/>
+          return <RecipeTile recipe={recipe}/>;
         })}
 
       </div>
