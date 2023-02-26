@@ -1,64 +1,43 @@
-import './keys';
 import './App.css';
-// import logo from '.logo/svg';
-// <img src={logo} alt="animEats_baby.svg" />
-import Axios from "axios";
-import RecipeTile from './RecipeTile';
-import { useState } from "react";
-
+import logo from "./animEats_1.png"
+import naruto from "./naruto.jpeg"
+import yuri from "./yuri.png"
+import tanjiro from "./tanjiro.jpeg"
+import erza from "./erza.jpeg"
 function App() {
-  const [query, setquery] = useState("");
-  const [recipes, setrecipes] = useState([]);
-  const [healthLabels, sethealthLabels] = useState("vegan");
-
-
-  const YOUR_APP_ID = "8d941e23";
-  const YOUR_APP_KEY = "6ba4ea10183b47bb358513d52b0ac743";
-
-  var url = `https://api.edamam.com/search?q=${query}&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&&health=${healthLabels}`;
-
-  async function getRecipes(){
-    var result = await Axios.get(url);
-    setrecipes(result.data.hits);
-    console.log(result.data);
-  }
-
-  const onSubmit = (e) => {
-    e.preventDefault();
-    getRecipes();
-  }
-
   return (
-    <div className="app">
-      <h1 onClick={getRecipes}>Anime-Inspired Food Recipes</h1>
-      <form className="app_searchForm" onSubmit={onSubmit}>
-        <input type="text" className="app_input" placeholder="Enter Ingredient"
-        value={query} onChange={(e) => setquery(e.target.value)}/>
-
-        <input className="app_submit" type="submit" value="Search"/>
-        
-        <select className="app_healthLabels" >
-        <option onClick={() => sethealthLabels("")}>none</option>
-          <option onClick={() => sethealthLabels("vegan")}>vegan</option>
-          <option onClick={() => sethealthLabels("vegetarian")}>vegetarian</option>
-          <option onClick={() => sethealthLabels("vegan")}>vegan</option>
-          <option onClick={() => sethealthLabels("gluten-free")}>gluten-free</option>
-          <option onClick={() => sethealthLabels("peanut-free")}>peanut-free</option>
-          <option onClick={() => sethealthLabels("tree-nut-free")}>tree-nut-free</option>
-          <option onClick={() => sethealthLabels("soy-free")}>soy-free</option>
-          <option onClick={() => sethealthLabels("dairy-free")}>dairy-free</option>
-          <option onClick={() => sethealthLabels("fat-free")}>fat-free</option>
-        </select>
-      </form>
-
-      <div className="app_recipes">
-        {recipes.map(recipe => {
-          return <RecipeTile recipe={recipe}/>;
-        })}
-
-      </div>
-    </div>
-    
+    <main>
+          <header>
+            <img class="logo" src={logo} alt="logo img" />
+            <p>
+              Pick a character to see how to cook their favorite meal!
+            </p>
+          </header>
+          <body>
+            <div class="row">
+              <div class="column">
+                  <div class = "content">
+                  <img src={naruto} alt="Naruto" /></div>
+                  <a href="./searchfood.js" class="button">Favorite Food Recipe: Ramen</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={yuri} alt="Yuri" /></div>
+                <a href="yuri.html" class="button">Favorite Food Recipe: Katsudon</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={tanjiro} alt="Tanjiro" /></div>
+                <a href="tanjiro.html" class="button">Favorite Food Recipe: Onigiri</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={erza} alt="Erza" /></div>
+                <a href="erza.html" class="button">Favorite Food Recipe: Cake</a>
+              </div>
+            </div>
+          </body>
+      </main> 
   );
 }
 
