@@ -1,10 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
-<img src={logo} alt="animEats_baby.svg" />
+import logo from "./animEats.png"
+import naruto from "./naruto.jpeg"
+import yuri from "./yuri.png"
+import tanjiro from "./tanjiro.jpeg"
+import erza from "./erza.jpeg"
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <main>
+          <header>
+            <img class="logo" src={logo} alt="logo img" />
+            <p>
+              Pick a character to see how to cook their favorite meal!
+            </p>
+          </header>
+          <body>
+            <div class="row">
+              <div class="column">
+                  <div class = "content">
+                  <img src={naruto} alt="Naruto" /></div>
+                  <a href="./Naruto.js" class="button">Favorite Food Recipe: Ramen</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={yuri} alt="Yuri" /></div>
+                <a href="yuri.html" class="button">Favorite Food Recipe: Katsudon</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={tanjiro} alt="Tanjiro" /></div>
+                <a href="tanjiro.html" class="button">Favorite Food Recipe: Onigiri</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={erza} alt="Erza" /></div>
+                <a href="erza.html" class="button">Favorite Food Recipe: Cake</a>
+              </div>
+            </div>
+          </body>
+      </main> 
   );
 }
 
