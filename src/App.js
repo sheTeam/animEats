@@ -4,6 +4,7 @@ import naruto from "./naruto.jpeg"
 import yuri from "./yuri.png"
 import tanjiro from "./tanjiro.jpeg"
 import erza from "./erza.jpeg"
+import morefood from "./morefood.png"
 import React from 'react';
 
 
@@ -22,23 +23,26 @@ function App() {
                   <div class = "content">
                   <img src={naruto} alt="Naruto" /></div>
                 <a href="https://pen-online.com/food/recipe-for-ichiraku-ramen-from-naruto-by-danielle-baghernejad/" class="button">Favorite Food Recipe: Ramen</a>
-                  <img id="naruto" src={narutomore} alt="Naruto"onclick="myfunction()"/>
-                  //<a href="https://pen-online.com/food/recipe-for-ichiraku-ramen-from-naruto-by-danielle-baghernejad/"> <button onClick={naruto}>Favorite Food Recipe: Ramen</button></a>
               </div>
               <div class="column">
                 <div class = "content">
                 <img src={yuri} alt="Yuri" /></div>
-                <a href="yuri.html" class="button">Favorite Food Recipe: Katsudon</a>
+                <a href="https://thewoksoflife.com/katsudon/" class="button">Favorite Food Recipe: Katsudon</a>
               </div>
               <div class="column">
                 <div class = "content">
                 <img src={tanjiro} alt="Tanjiro" /></div>
-                <a href="tanjiro.html" class="button">Favorite Food Recipe: Onigiri</a>
+                <a href="https://www.justonecookbook.com/onigiri-rice-balls/" class="button">Favorite Food Recipe: Onigiri</a>
               </div>
               <div class="column">
                 <div class = "content">
                 <img src={erza} alt="Erza" /></div>
-                <a href="erza.html" class="button">Favorite Food Recipe: Cake</a>
+                <a href="https://sugarspunrun.com/vanilla-cake-recipe/" class="button">Favorite Food Recipe: Cake</a>
+              </div>
+              <div class="column">
+                <div class = "content">
+                <img src={morefood} alt="morefood" /></div>
+                <a href="TBA" class="button">Still looking? Search for a food item here!</a>
               </div>
             </div>
           </body>
