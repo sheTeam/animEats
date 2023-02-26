@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+  
+}
 
 
 .app {
@@ -29,6 +33,21 @@
   color: white;
 }
 
+.App-link {
+  color: #61dafb;
+}
+body {
+  background-color: #C5E49D;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .app_recipes{
   margin-top: 24px;
   display: grid;
