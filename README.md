@@ -9,6 +9,11 @@ This website allows users to cook meals that their favorite anime characters enj
 ## Link to Figma Frontend Design: 
 https://www.figma.com/file/JtGHhJkmfJuXA1ltrbRKDW/athena-hacks?node-id=4%3A10&t=zNuRIgBQDAbpCQjB-1
 
+## Link to Replit:
+https://replit.com/@TiffanyTruong1/animEats?v=1
+
+-Note: In order to see it, you have to run "npm start" in the shell
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
