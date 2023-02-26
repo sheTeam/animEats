@@ -1,4 +1,4 @@
-
+# AnimEats
 # ![AnimEats Logo](https://github.com/sheTeam/animEats/blob/main/animEats2.png)
 This website allows users to cook meals that their favorite anime characters enjoy eating!
 ## Roles
