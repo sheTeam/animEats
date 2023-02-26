@@ -22,6 +22,9 @@ Front Homepage layout:
 Our Search food function homepage:
 ![searchfood](https://github.com/sheTeam/animEats/blob/main/searchfood%20function.png)
 
+Our cute tab icon!:
+![tablogo](https://github.com/sheTeam/animEats/blob/main/tablogo.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
