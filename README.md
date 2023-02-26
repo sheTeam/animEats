@@ -16,6 +16,9 @@ https://replit.com/@TiffanyTruong1/animEats?v=1
 
 -Note: In order to see it, you have to run "npm start" in the shell
 
+Front Homepage layout
+# ![homepage](https://github.com/sheTeam/animEats/blob/main/fronthomepage.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
