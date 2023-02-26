@@ -1,3 +1,14 @@
+
+# animEats
+This website allows users to cook meals that their favorite anime characters enjoy eating!
+## Roles
+-Backend: Mohraiel Matta, Erika Ledesma
+
+-Frontend: Allison Ly, Tiffany Truong
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,10 +79,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# animEats
-This website allows users to cook meals that their favorite anime characters enjoy eating!
-## Roles
--Backend: Mohraiel Matta, Erika Ledesma
-
--Frontend: Allison Ly, Tiffany Truong
