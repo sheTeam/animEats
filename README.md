@@ -6,7 +6,8 @@ This website allows users to cook meals that their favorite anime characters enj
 
 -Frontend: Allison Ly, Tiffany Truong
 
-# Link to Figma Frontend Design: https://www.figma.com/file/JtGHhJkmfJuXA1ltrbRKDW/athena-hacks?node-id=4%3A10&t=zNuRIgBQDAbpCQjB-1
+## Link to Figma Frontend Design: 
+https://www.figma.com/file/JtGHhJkmfJuXA1ltrbRKDW/athena-hacks?node-id=4%3A10&t=zNuRIgBQDAbpCQjB-1
 
 # Getting Started with Create React App
 
