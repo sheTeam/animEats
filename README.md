@@ -11,6 +11,9 @@ If you already know your favorite anime character's food, you can click our sear
 ## Link to Figma Frontend Design: 
 https://www.figma.com/file/JtGHhJkmfJuXA1ltrbRKDW/athena-hacks?node-id=4%3A10&t=zNuRIgBQDAbpCQjB-1
 
+## Link to YouTube Tutorial used for Backend:
+https://www.youtube.com/watch?v=tPqnKDBaMLQ
+
 ## Link to Replit:
 https://replit.com/@TiffanyTruong1/animEats?v=1
 
