@@ -1,5 +1,6 @@
 import './keys';
 import './App.css';
+<img src={logo} alt="animEats_baby.svg" />
 import Axios from "axios";
 import { useState } from "react";
 
