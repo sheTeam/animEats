@@ -3,7 +3,7 @@ import "./RecipeTile.css";
 
 export default function RecipeTile({ recipe }) {
   return (
-    // recipe["recipe"]["image"].match(/\.(jpeg|jpg|gif|png)$/) != null && (
+    recipe["recipe"]["url"].match() != null && (
     <div className="recipeTile" onClick={() => {
         window.open(recipe["recipe"]["url"]);
     }}
@@ -11,6 +11,6 @@ export default function RecipeTile({ recipe }) {
         <img className="recipeTile_img" src={recipe["recipe"]["image"]} alt=""/>
         <p className="recipeTile_name">{recipe["recipe"]["label"]}</p>
     </div>
-    //  )
+     )
   );
 }
