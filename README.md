@@ -1,5 +1,5 @@
 
-# ![alt text](https://github.com/sheTeam/animEats/blob/main/animEats.png)
+# ![AnimEats Logo](https://github.com/sheTeam/animEats/blob/main/animEats2.png)
 This website allows users to cook meals that their favorite anime characters enjoy eating!
 ## Roles
 -Backend: Mohraiel Matta, Erika Ledesma
