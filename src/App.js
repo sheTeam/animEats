@@ -37,7 +37,7 @@ function App() {
               <div class="column">
                 <div class = "content">
                 <img src={erza} alt="Erza" /></div>
-                <a href="https://sugarspunrun.com/vanilla-cake-recipe/" class="button">Favorite Food Recipe: Cake</a>
+                <a href="https://rosannapansino.com/blogs/recipes/fairy-tail-fantasia-cake" class="button">Favorite Food Recipe: Cake</a>
               </div>
               <div class="column">
                 <div class = "content">
